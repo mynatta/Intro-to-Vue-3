@@ -8,6 +8,12 @@ const app = Vue.createApp({
             variants: [
                 { id: 2234, color: 'green'},
                 { id: 2235, color: 'blue'},
+            ],
+            sizes: [
+                { id: 1,size: "S"},
+                { id: 2,size: "M"},
+                { id: 3,size: "L"},
+                { id: 4,size: "XL"},
             ]
         }
     }
